@@ -6,7 +6,7 @@ A fully responsive premium car rental website built with pure HTML, CSS and vani
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
-🔗 **Live Demo:** [luxury-cars](https://danielelytvynenko.github.io/luxury-cars/)
+🔗 **Live Demo:** [luxury-cars](https://danielelytvynenko.github.io/luxury-Cars/)
 
 ## Features
 
