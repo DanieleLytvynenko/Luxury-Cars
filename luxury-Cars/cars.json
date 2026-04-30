@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "brand": "Lamborghini",
+    "title": "Lamborghini Huracán",
+    "text": "Среднемоторный суперкар с атмосферным V10 мощностью 640 л.с. Разгон до 100 км/ч за 2.9 секунды.",
+    "image": "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=600&q=80"
+  },
+  {
+    "id": 2,
+    "brand": "Lamborghini",
+    "title": "Lamborghini Aventador",
+    "text": "Флагман марки с двигателем V12 мощностью 770 л.с. Агрессивный дизайн и непревзойдённая динамика.",
+    "image": "https://images.unsplash.com/photo-1621135802920-133df287f89c?w=600&q=80"
+  },
+  {
+    "id": 3,
+    "brand": "Lamborghini",
+    "title": "Lamborghini Urus",
+    "text": "Первый супер-SUV в мире. Twin-turbo V8 мощностью 650 л.с. сочетает комфорт и спортивный характер.",
+    "image": "https://images.unsplash.com/photo-1669725083181-2980be4505b1?w=600&q=80"
+  },
+  {
+    "id": 4,
+    "brand": "Ferrari",
+    "title": "Ferrari 488 GTB",
+    "text": "Среднемоторное купе с twin-turbo V8 мощностью 670 л.с. Идеальный баланс мощности и управляемости.",
+    "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=600&q=80"
+  },
+  {
+    "id": 5,
+    "brand": "Ferrari",
+    "title": "Ferrari F8 Tributo",
+    "text": "Дань уважения лучшим двигателям Ferrari. V8 с 720 л.с. и аэродинамика из Формулы 1.",
+    "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?w=600&q=80"
+  },
+  {
+    "id": 6,
+    "brand": "Ferrari",
+    "title": "Ferrari Roma",
+    "text": "Элегантное гран-туризмо с twin-turbo V8 мощностью 620 л.с. Итальянский стиль в каждой линии.",
+    "image": "https://images.unsplash.com/photo-1632441788890-fdbae6802c2e?w=600&q=80"
+  },
+  {
+    "id": 7,
+    "brand": "Porsche",
+    "title": "Porsche 911 Turbo S",
+    "text": "Легендарный спорткар с оппозитным twin-turbo мотором 650 л.с. Эталон спортивного вождения.",
+    "image": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=600&q=80"
+  },
+  {
+    "id": 8,
+    "brand": "Porsche",
+    "title": "Porsche Taycan",
+    "text": "Полностью электрический спорткар мощностью до 761 л.с. Будущее уже здесь.",
+    "image": "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=600&q=80"
+  },
+  {
+    "id": 9,
+    "brand": "BMW",
+    "title": "BMW M4 Competition",
+    "text": "Спортивное купе с twin-turbo R6 мощностью 510 л.с. Агрессивный стиль и точное управление.",
+    "image": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=600&q=80"
+  },
+  {
+    "id": 10,
+    "brand": "BMW",
+    "title": "BMW M8 Gran Coupé",
+    "text": "Четырёхдверное гран-туризмо с V8 мощностью 625 л.с. Роскошь и мощь в одном кузове.",
+    "image": "https://images.unsplash.com/photo-1556189250-72ba954cfc2b?w=600&q=80"
+  },
+  {
+    "id": 11,
+    "brand": "Mercedes",
+    "title": "Mercedes-AMG GT",
+    "text": "Переднемоторный спорткар с twin-turbo V8 мощностью 585 л.с. Немецкая инженерная точность.",
+    "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=600&q=80"
+  },
+  {
+    "id": 12,
+    "brand": "Mercedes",
+    "title": "Mercedes-AMG G63",
+    "text": "Культовый внедорожник с twin-turbo V8 мощностью 585 л.с. Брутальная роскошь без компромиссов.",
+    "image": "https://images.unsplash.com/photo-1520031441872-265e4ff70366?w=600&q=80"
+  },
+  {
+    "id": 13,
+    "brand": "Chevrolet",
+    "title": "Chevrolet Corvette C8",
+    "text": "Среднемоторный суперкар с V8 мощностью 495 л.с. Американская легенда нового поколения.",
+    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=600&q=80"
+  },
+  {
+    "id": 14,
+    "brand": "Chevrolet",
+    "title": "Chevrolet Camaro ZL1",
+    "text": "Маслкар с компрессорным V8 мощностью 650 л.с. Чистая американская мощь на треке и дороге.",
+    "image": "https://images.unsplash.com/photo-1603553329474-99f95f35394f?w=600&q=80"
+  },
+  {
+    "id": 15,
+    "brand": "Audi",
+    "title": "Audi R8 V10",
+    "text": "Суперкар с атмосферным V10 мощностью 620 л.с. и полным приводом quattro. Ежедневный суперкар.",
+    "image": "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?w=600&q=80"
+  },
+  {
+    "id": 16,
+    "brand": "Audi",
+    "title": "Audi RS7 Sportback",
+    "text": "Пятидверное купе с twin-turbo V8 мощностью 600 л.с. Практичность и скорость без компромиссов.",
+    "image": "https://images.unsplash.com/photo-1606152421802-db97b9c7b11b?w=600&q=80"
+  },
+  {
+    "id": 17,
+    "brand": "Ford",
+    "title": "Ford Mustang GT",
+    "text": "Легендарный маслкар с V8 мощностью 450 л.с. Икона американского автомобилестроения.",
+    "image": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=600&q=80"
+  },
+  {
+    "id": 18,
+    "brand": "Ford",
+    "title": "Ford GT",
+    "text": "Среднемоторный суперкар с twin-turbo V6 мощностью 660 л.с. Наследник легенды Ле-Мана.",
+    "image": "https://images.unsplash.com/photo-1581650107963-3e8c1f48241b?w=600&q=80"
+  }
+]

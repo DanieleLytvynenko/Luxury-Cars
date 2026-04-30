@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUXURY.CAR — Аренда премиальных автомобилей</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a href="#top" class="logo">
+        <img src="logo.png" alt="LUXURY.CAR" class="logo__img">
+      </a>
+      <button class="burger" id="burgerBtn" aria-label="Открыть меню навигации">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="mainNav" aria-label="Основная навигация">
+        <a href="#catalog" class="nav__link">Автопарк</a>
+        <a href="#how" class="nav__link">Как это работает</a>
+        <a href="#order" class="nav__link nav__link--cta">Забронировать</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__bg"></div>
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <p class="hero__label">Премиум аренда</p>
+        <h1 class="hero__title">
+          Покорите<br>
+          <span class="hero__title--accent">дороги</span> за рулём<br>
+          легендарных<br>автомобилей
+        </h1>
+        <p class="hero__sub">От эксклюзивных спорткаров до гоночных шедевров — выбирайте мечту, садитесь за руль и ощутите мощь премиального авто.</p>
+        <div class="hero__actions">
+          <a href="#catalog" class="btn btn--primary">Смотреть автомобили</a>
+          <a href="#order" class="btn btn--ghost">Забронировать</a>
+        </div>
+      </div>
+      <div class="hero__car">
+        <img src="main-car.png" alt="Lamborghini" class="hero__car-img">
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how" id="how">
+    <div class="container">
+      <p class="section-label">Просто и быстро</p>
+      <h2 class="section-title">Как это работает</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step__num">01</div>
+          <h3 class="step__title">Выберите автомобиль</h3>
+          <p class="step__text">Используйте фильтр по маркам и выберите тот, что вас зажигает.</p>
+        </div>
+        <div class="step__arrow">→</div>
+        <div class="step">
+          <div class="step__num">02</div>
+          <h3 class="step__title">Забронируйте</h3>
+          <p class="step__text">Заполните форму — имя, телефон и выбранный автомобиль.</p>
+        </div>
+        <div class="step__arrow">→</div>
+        <div class="step">
+          <div class="step__num">03</div>
+          <h3 class="step__title">Мы перезвоним</h3>
+          <p class="step__text">Обсудим детали и подтвердим бронирование в течение часа.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATALOG -->
+  <section class="catalog" id="catalog">
+    <div class="container">
+      <p class="section-label">Наш автопарк</p>
+      <h2 class="section-title">Выберите автомобиль</h2>
+
+      <!-- FILTERS -->
+      <div class="filters" id="carsTop" role="group" aria-label="Фильтр по маркам автомобилей">
+        <button class="filter-btn filter-btn--active" data-filter="" aria-label="Показать все марки">Все марки</button>
+        <button class="filter-btn" data-filter="Lamborghini" aria-label="Показать Lamborghini">Lamborghini</button>
+        <button class="filter-btn" data-filter="Ferrari" aria-label="Показать Ferrari">Ferrari</button>
+        <button class="filter-btn" data-filter="Porsche" aria-label="Показать Porsche">Porsche</button>
+        <button class="filter-btn" data-filter="BMW" aria-label="Показать BMW">BMW</button>
+        <button class="filter-btn" data-filter="Mercedes" aria-label="Показать Mercedes">Mercedes</button>
+        <button class="filter-btn" data-filter="Chevrolet" aria-label="Показать Chevrolet">Chevrolet</button>
+        <button class="filter-btn" data-filter="Audi" aria-label="Показать Audi">Audi</button>
+        <button class="filter-btn" data-filter="Ford" aria-label="Показать Ford">Ford</button>
+      </div>
+
+      <!-- LOADING STATE -->
+      <div class="loader" id="loader">
+        <div class="loader__spinner" role="status">
+          <span class="visually-hidden">Загружаем автомобили...</span>
+        </div>
+        <p>Загружаем автомобили...</p>
+      </div>
+
+      <!-- ERROR STATE -->
+      <div class="error-state" id="errorState" style="display:none">
+        <p>⚠️ Не удалось загрузить данные. Попробуйте обновить страницу.</p>
+        <button class="btn btn--primary" id="retryBtn">Попробовать снова</button>
+      </div>
+
+      <!-- CARS GRID -->
+      <div class="cars-grid" id="carsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ORDER SECTION -->
+  <section class="order" id="order">
+    <div class="container order__inner">
+      <div class="order__left">
+        <img src="order-car.png" alt="Забронировать авто" class="order__img">
+      </div>
+      <div class="order__right">
+        <p class="section-label">Форма бронирования</p>
+        <h2 class="section-title section-title--light">Забронируйте<br>прямо сейчас</h2>
+        <p class="order__desc">Заполните контактные данные — мы перезвоним вам для обсуждения деталей и подтверждения бронирования.</p>
+        <form class="form" id="orderForm" novalidate>
+          <div class="form__group">
+            <label class="form__label" for="carInput">Автомобиль</label>
+            <div class="form__select-wrapper">
+              <select class="form__input form__select" id="carInput" name="car" required>
+                <option value="">— Выберите автомобиль —</option>
+              </select>
+            </div>
+            <span class="form__error" id="carError">Выберите автомобиль</span>
+          </div>
+          <div class="form__group">
+            <label class="form__label" for="nameInput">Ваше имя</label>
+            <input class="form__input" id="nameInput" name="name" type="text" placeholder="Иван Иванов" required minlength="2">
+            <span class="form__error" id="nameError">Введите ваше имя</span>
+          </div>
+          <div class="form__group">
+            <label class="form__label" for="phoneInput">Ваш телефон</label>
+            <input class="form__input" id="phoneInput" name="phone" type="tel" placeholder="+380 67 000 00 00" required>
+            <span class="form__error" id="phoneError">Введите номер телефона</span>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full" id="submitBtn">
+            <span id="submitText">Забронировать</span>
+            <span id="submitLoader" style="display:none">Отправляем...</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <img src="logo.png" alt="LUXURY.CAR" class="footer__logo">
+      <p class="footer__copy">© <span id="footerYear"></span> LUXURY.CAR — все права защищены</p>
+      <div class="footer__links">
+        <a href="#catalog" class="footer__link">Автопарк</a>
+        <a href="#order" class="footer__link">Забронировать</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODAL SUCCESS -->
+  <div class="modal" id="successModal" role="dialog" aria-labelledby="modalTitle" aria-modal="true">
+    <div class="modal__backdrop" id="modalBackdrop"></div>
+    <div class="modal__box">
+      <div class="modal__icon">✓</div>
+      <h3 class="modal__title" id="modalTitle">Заявка отправлена!</h3>
+      <p class="modal__text">Мы перезвоним вам в ближайшее время для подтверждения бронирования.</p>
+      <button class="btn btn--primary" id="modalClose">Закрыть</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
