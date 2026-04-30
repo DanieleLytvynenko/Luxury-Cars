@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "brand": "Lamborghini",
+    "title": "Lamborghini Huracán",
+    "text": "Mid-engine supercar with a naturally aspirated V10 producing 640 hp. 0–100 km/h in just 2.9 seconds.",
+    "image": "images/lamborghini-huracan.png"
+  },
+  {
+    "id": 2,
+    "brand": "Lamborghini",
+    "title": "Lamborghini Aventador",
+    "text": "Flagship model with a 770 hp V12 engine. Aggressive design and unmatched performance on any road.",
+    "image": "images/lamborghini-aventador.png"
+  },
+  {
+    "id": 3,
+    "brand": "Lamborghini",
+    "title": "Lamborghini Urus",
+    "text": "The world's first Super SUV. Twin-turbo V8 with 650 hp combines luxury comfort with sports car performance.",
+    "image": "images/lamborghini-urus.png"
+  },
+  {
+    "id": 4,
+    "brand": "Ferrari",
+    "title": "Ferrari 488 GTB",
+    "text": "Mid-engine coupé with a twin-turbo V8 producing 670 hp. Perfect balance of power and handling.",
+    "image": "images/ferrari-488-gtb.png"
+  },
+  {
+    "id": 5,
+    "brand": "Ferrari",
+    "title": "Ferrari F8 Tributo",
+    "text": "A tribute to Ferrari's greatest engines. 720 hp V8 with Formula 1-derived aerodynamics.",
+    "image": "images/ferrari-f8-tributo.png"
+  },
+  {
+    "id": 6,
+    "brand": "Ferrari",
+    "title": "Ferrari Roma",
+    "text": "Elegant grand tourer with a 620 hp twin-turbo V8. Italian style and sophistication in every line.",
+    "image": "images/ferrari-roma.png"
+  },
+  {
+    "id": 7,
+    "brand": "Porsche",
+    "title": "Porsche 911 Turbo S",
+    "text": "Legendary sports car with a 650 hp twin-turbo flat-six engine. The benchmark for sports driving.",
+    "image": "images/porsche-911-turbo-s.png"
+  },
+  {
+    "id": 8,
+    "brand": "Porsche",
+    "title": "Porsche Taycan",
+    "text": "Fully electric sports car with up to 761 hp. The future of performance driving is here.",
+    "image": "images/porsche-taycan.png"
+  },
+  {
+    "id": 9,
+    "brand": "BMW",
+    "title": "BMW M4 Competition",
+    "text": "Sport coupé with a 510 hp twin-turbo inline-6. Aggressive styling and razor-sharp handling.",
+    "image": "images/bmw-m4-competition.png"
+  },
+  {
+    "id": 10,
+    "brand": "BMW",
+    "title": "BMW M8 Gran Coupé",
+    "text": "Four-door grand tourer with a 625 hp V8. Luxury and raw power in a single sleek body.",
+    "image": "images/bmw-m8-gran-coupe.png"
+  },
+  {
+    "id": 11,
+    "brand": "Mercedes",
+    "title": "Mercedes-AMG GT",
+    "text": "Front-engine sports car with a 585 hp twin-turbo V8. German engineering precision at its finest.",
+    "image": "images/mercedes-amg-gt.png"
+  },
+  {
+    "id": 12,
+    "brand": "Mercedes",
+    "title": "Mercedes-AMG G63",
+    "text": "Iconic SUV with a 585 hp twin-turbo V8. Brutal luxury without compromise, on any terrain.",
+    "image": "images/mercedes-amg-g63.png"
+  },
+  {
+    "id": 13,
+    "brand": "Chevrolet",
+    "title": "Chevrolet Corvette C8",
+    "text": "Mid-engine supercar with a 495 hp V8. A new generation of America's legendary sports car.",
+    "image": "images/chevrolet-corvette-c8.png"
+  },
+  {
+    "id": 14,
+    "brand": "Chevrolet",
+    "title": "Chevrolet Camaro ZL1",
+    "text": "Muscle car with a supercharged 650 hp V8. Pure American power built for the track and the street.",
+    "image": "images/chevrolet-camaro-zl1.png"
+  },
+  {
+    "id": 15,
+    "brand": "Audi",
+    "title": "Audi R8 V10",
+    "text": "Supercar with a naturally aspirated 620 hp V10 and quattro AWD. The everyday supercar.",
+    "image": "images/audi-r8-v10.png"
+  },
+  {
+    "id": 16,
+    "brand": "Audi",
+    "title": "Audi RS7 Sportback",
+    "text": "Five-door coupé with a 600 hp twin-turbo V8. Practicality and speed without compromise.",
+    "image": "images/audi-rs7-sportback.png"
+  },
+  {
+    "id": 17,
+    "brand": "Ford",
+    "title": "Ford Mustang GT",
+    "text": "Legendary muscle car with a 450 hp V8. An icon of American automotive engineering.",
+    "image": "images/ford-mustang-gt.png"
+  },
+  {
+    "id": 18,
+    "brand": "Ford",
+    "title": "Ford GT",
+    "text": "Mid-engine supercar with a 660 hp twin-turbo V6. Heir to the Le Mans legend.",
+    "image": "images/ford-gt.png"
+  }
+]
